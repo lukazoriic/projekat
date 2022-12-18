@@ -1,0 +1,166 @@
+body 
+{
+    background-color:black;
+}
+.Menu
+{
+    display: block;
+}
+
+.Menu li a 
+{
+    text-decoration: none;
+    background-color:green;
+    color:white;
+    padding:4px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+.Menu li a:hover 
+{
+    background-color: greenyellow;
+    color:black;
+}
+
+.Menu li 
+{
+  
+    list-style: none;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border-radius: 14px;
+    border-color: black;
+}
+
+.Menu li.this a
+{
+    background-color: greenyellow;
+    color:black;
+}
+
+#Header
+{
+    font-weight: bold;
+    font-style: italic;
+    color:green;
+    text-align: center;
+}
+#Home_Paragraph
+{
+    font-weight: bold;
+    font-size: 20px;
+    color:green;
+}
+
+.Motocycle p
+{
+font-weight: bold;
+font-size: 20px;
+color:greenyellow;
+}
+
+.Motocycle a 
+{
+    text-decoration: none;
+    background-color:green;
+    color:white;
+    padding:4px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.Motocycle a:hover 
+{
+    background-color: greenyellow;
+    color:white;
+}
+
+#Motocycle_Name 
+{
+    color:white;
+}
+
+#Contact_h1 
+{
+    font-weight: bold;
+    font-style: italic;
+    color:greenyellow;
+}
+
+
+label 
+{
+    color:white;
+    font-weight: bold;
+}
+
+
+input 
+{
+    display: block;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+@media screen and (max-width:600px) {
+    .Menu {
+        display: block;
+        padding-left: 0px;
+    }
+    .Menu li a {
+        display: block;
+    }
+}
+
+img 
+{
+    width: 940px;
+    height: 620px;
+}
+
+button
+{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+  
+button span{
+    position: relative;
+    z-index: 2;
+}
+  
+button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  button:hover{
+    background-color: greenyellow;
+    color:white;
+  }
+  
+  a:hover:after{
+    width: 100% ;
+ }
